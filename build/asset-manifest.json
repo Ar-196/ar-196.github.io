@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ar-196/ar-196.github.io.git/static/css/main.f138641f.css",
+    "main.js": "/Ar-196/ar-196.github.io.git/static/js/main.d2c11270.js",
+    "index.html": "/Ar-196/ar-196.github.io.git/index.html",
+    "main.f138641f.css.map": "/Ar-196/ar-196.github.io.git/static/css/main.f138641f.css.map",
+    "main.d2c11270.js.map": "/Ar-196/ar-196.github.io.git/static/js/main.d2c11270.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f138641f.css",
+    "static/js/main.d2c11270.js"
+  ]
+}
