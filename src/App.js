@@ -83,11 +83,11 @@ function Projects() {
             links={[
               {
                 href: "https://github.com/Ar-196/MemGame",
-                buttonContent: <><span class="fa-brands fa-github"></span>GitHub</>
+                buttonContent: <><span class="fa-brands fa-github"></span> GitHub</>
               },
               {
                 href: "./files/MemGame.zip",
-                buttonContent: <><span class="fa-solid fa-download"></span>Download</>
+                buttonContent: <><span class="fa-solid fa-download"></span> Download</>
               }
             ]}
           />
@@ -102,7 +102,20 @@ function Projects() {
             links={[
               {
                 href: "./files/TTKOF.zip",
-                buttonContent: <><span class="fa-solid fa-download"></span>Download</>
+                buttonContent: <><span class="fa-solid fa-download"></span> Download</>
+              }
+            ]}
+          />
+          <ProjectItem 
+            title="ar-196.github.io" 
+            year="2024"
+            desc="A website I made to flesh out and show my personal projects, 
+            and also to get exposure to web development (and also some practice 
+            for COMP3900). Uses React.js and Tailwindcss."
+            links={[
+              {
+                href: "https://github.com/Ar-196/ar-196.github.io",
+                buttonContent: <><span class="fa-brands fa-github"></span> GitHub</>
               }
             ]}
           />
@@ -114,7 +127,7 @@ function Projects() {
 
 function ProjectItem({ title, year, img, desc, links }) {
   return (
-    <div class="rounded p-4 bg-slate-100">
+    <div class="rounded p-4 bg-slate-100 flex flex-col justify-center">
       <p class="text-2xl font-semibold">
         {title} 
       </p>
