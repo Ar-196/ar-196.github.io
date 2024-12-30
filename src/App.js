@@ -45,64 +45,68 @@ function HeaderButton({ href, displayText }) {
 
 function AboutMe() {
   return (
-    <div id="about-me" class="border-2 p-20 md:p-24 mt-20 mb-10 flex flex-col justify-center items-center w-3/4 mx-auto">
-      <p class="text-3xl"> 
-        Welcome to my site! 
-      </p>
-      <p class="py-6">
-        Hello, my name is Ar-196, and this is my website, which I made mainly 
-        to mess around with web development. 
-        <br /><br />
-        There are also a few projects from high school which I haven't maintained properly, 
-        but would still like to show nonetheless.
-        <br /><br />
-        I would also like to show a few more things, 
-        like future projects, and other things that I have done.
-      </p>
+    <div id="about-me" class="pt-20">
+      <div class="border-2 p-10 md:p-15 flex flex-col justify-center items-center w-3/4 mx-auto">
+        <p class="text-3xl"> 
+          Welcome to my site! 
+        </p>
+        <p class="pt-6 pb-3">
+          Hello, my name is Ar-196, and this is my website, which I made mainly 
+          to mess around with web development. 
+          <br /><br />
+          There are also a few projects from high school which I haven't maintained properly, 
+          but would still like to show nonetheless.
+          <br /><br />
+          I would also like to show a few more things, 
+          like future projects, and other things that I have done.
+        </p>
+      </div>
     </div>
   );
 }
 
 function Projects() {
   return (
-    <div id="projects" class="mx-auto w-3/4 items-center justify-between flex flex-col">
-      <p class="text-3xl"> 
-        Some of my personal projects
-      </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-center p-5 md:p-10">
-        <ProjectItem 
-          title="MemGame" 
-          year="2021"
-          img="images/MemGame.png"
-          desc="An old project I made as an assignment for Year 11 SDD. 
-            It is a small application with two games: Image Match and Word Blitz.
-            It uses Visual Basic, and is coded for .NET 4.0."
-          links={[
-            {
-              href: "https://github.com/Ar-196/MemGame",
-              buttonContent: <><span class="fa-brands fa-github"></span>GitHub</>
-            },
-            {
-              href: "./files/MemGame.zip",
-              buttonContent: <><span class="fa-solid fa-download"></span>Download</>
-            }
-          ]}
-        />
-        <ProjectItem 
-          title="TTKOF" 
-          year="2022"
-          img="images/TTKOF_2.png"
-          desc="A very short platformer/beat-em-up game that I made for my SDD class in Year 12.
-            Coded in Unity and C#, I consider it the best thing I made in high school. 
-            Unfortunately, I don't have any of the source code for this game,
-            only the final build."
-          links={[
-            {
-              href: "./files/TTKOF.zip",
-              buttonContent: <><span class="fa-solid fa-download"></span>Download</>
-            }
-          ]}
-        />
+    <div id="projects" class="pt-20">
+      <div class="mx-auto w-3/4 items-center justify-between flex flex-col p-5">
+        <p class="text-3xl"> 
+          Some of my personal projects
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-center p-5 md:p-10">
+          <ProjectItem 
+            title="MemGame" 
+            year="2021"
+            img="images/MemGame.png"
+            desc="An old project I made as an assignment for Year 11 SDD. 
+              It is a small application with two games: Image Match and Word Blitz.
+              It uses Visual Basic, and is coded for .NET 4.0."
+            links={[
+              {
+                href: "https://github.com/Ar-196/MemGame",
+                buttonContent: <><span class="fa-brands fa-github"></span>GitHub</>
+              },
+              {
+                href: "./files/MemGame.zip",
+                buttonContent: <><span class="fa-solid fa-download"></span>Download</>
+              }
+            ]}
+          />
+          <ProjectItem 
+            title="TTKOF" 
+            year="2022"
+            img="images/TTKOF_2.png"
+            desc="A very short platformer/beat-em-up game that I made for my SDD class in Year 12.
+              Coded in Unity and C#, I consider it the best thing I made in high school. 
+              Unfortunately, I don't have any of the source code for this game,
+              only the final build."
+            links={[
+              {
+                href: "./files/TTKOF.zip",
+                buttonContent: <><span class="fa-solid fa-download"></span>Download</>
+              }
+            ]}
+          />
+        </div>
       </div>
     </div>
   );
