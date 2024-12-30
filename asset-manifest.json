@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Ar-196/ar-196.github.io.git/static/css/main.efa63ddd.css",
-    "main.js": "/Ar-196/ar-196.github.io.git/static/js/main.bffdc4fb.js",
-    "index.html": "/Ar-196/ar-196.github.io.git/index.html",
-    "main.efa63ddd.css.map": "/Ar-196/ar-196.github.io.git/static/css/main.efa63ddd.css.map",
-    "main.bffdc4fb.js.map": "/Ar-196/ar-196.github.io.git/static/js/main.bffdc4fb.js.map"
+    "main.css": "/static/css/main.efa63ddd.css",
+    "main.js": "/static/js/main.3d3a33a1.js",
+    "index.html": "/index.html",
+    "main.efa63ddd.css.map": "/static/css/main.efa63ddd.css.map",
+    "main.3d3a33a1.js.map": "/static/js/main.3d3a33a1.js.map"
   },
   "entrypoints": [
     "static/css/main.efa63ddd.css",
-    "static/js/main.bffdc4fb.js"
+    "static/js/main.3d3a33a1.js"
   ]
 }
