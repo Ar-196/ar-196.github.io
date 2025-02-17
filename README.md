@@ -8,9 +8,9 @@ I also want to show all the things I have worked with in the past, as I have a b
 
 ## Frameworks used
 - React.js, to make developing the front end a little easier and less repetitive.
-  I mainly used the following packages as part of React:
+  I mainly used the following React-related frameworks as part of this website:
     - react v18.3.1
-    - react-dom v18.3.1
     - react-scripts v5.0.1 (has a few handy commands that makes development easier)
+    - react-router v7.1.5
 - tailwindcss v3.4.17 (Streamlines the CSS part of development thankfully, I remember when I was coding in a .css file like a madman back in Year 10 for an IPT project)
 - gh-pages v6.2.0 (not a framework so much as it is just a tool used for convenience to push the production build of the website to the repository)
