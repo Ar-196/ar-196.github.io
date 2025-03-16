@@ -73,7 +73,7 @@ function ProjectItem({ title, year, img, desc, links }) {
       </p>
       <div className="justify-evenly">
         {
-          links.map((linkInfo) => <ProjectLink href={linkInfo.href} buttonContent={linkInfo.buttonContent} />)
+          links.map((linkInfo) => <ProjectLink key={linkInfo.href + Math.random()} href={linkInfo.href} buttonContent={linkInfo.buttonContent} />)
         }
       </div>
     </div>
