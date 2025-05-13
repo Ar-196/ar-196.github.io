@@ -2,7 +2,7 @@ function Projects() {
   return (
     <div id="projects">
       <div className="mx-auto w-3/4 items-center justify-between flex flex-col p-5">
-        <p className="text-3xl"> 
+        <p className="text-3xl font-poppins"> 
           Some of my personal projects
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-center p-5 md:p-10">
@@ -61,14 +61,14 @@ function Projects() {
 function ProjectItem({ title, year, img, desc, links }) {
   return (
     <div className="rounded p-4 bg-slate-100 flex flex-col justify-center">
-      <p className="text-2xl font-semibold">
+      <p className="text-2xl font-semibold font-mono">
         {title} 
       </p>
       <p className="text-xl">
         {year}
       </p>
       <img className="rounded p-4" src={img} />
-      <p className="text-base px-4 pb-4">
+      <p className="text-base px-4 pb-4 font-redrose">
         {desc}
       </p>
       <div className="justify-evenly">
@@ -83,7 +83,7 @@ function ProjectItem({ title, year, img, desc, links }) {
 function ProjectLink({ href, buttonContent }) {
   return (
     <a className="px-1" href={href}>
-      <button className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded">
+      <button className="bg-sky-500 hover:bg-sky-700 active:bg-violet-500 text-white font-bold py-2 px-4 rounded">
         {buttonContent}
       </button>
     </a>

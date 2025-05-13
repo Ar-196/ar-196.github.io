@@ -13,14 +13,14 @@ export function Layout() {
   };
 
   const HeaderButton = ({ href, displayText }) =>
-    <li className="mr-6 hover:text-white">
+    <li className="mr-6 hover:text-white font-poppins">
       <Link to={href} onClick={disableNavbar}>{displayText}</Link>
     </li>
 
   return (
     <div className="max-w-full bg-slate-50 text-black">
       <header>
-        <nav className="flex items-center justify-between flex-wrap bg-sky-400 p-6 rounded-b-3xl fixed w-screen top-0 shadow">
+        <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-cyan-400 via-sky-500 via-30% to-indigo-500 to-90% p-6 rounded-b-3xl fixed w-screen top-0 shadow">
           <div className="flex items-center flex-shrink-0 md:mr-6">
             <Link className="-m-1.5 p-1.5 font-semibold text-xl tracking-tight" to="/" onClick={disableNavbar}>Ar-196</Link>
           </div>

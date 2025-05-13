@@ -2,10 +2,10 @@ function AboutMe() {
   return (
     <div id="about-me">
       <div className="border-2 p-10 md:p-15 flex flex-col justify-center items-center w-3/4 mx-auto">
-        <p className="text-3xl"> 
+        <p className="text-3xl font-poppins"> 
           Welcome to my site!
         </p>
-        <p className="pt-6 pb-3">
+        <p className="pt-6 pb-3 font-redrose font-light">
           Hello, my name is Ar-196, and this is my website, which I made mainly 
           to mess around with web development. 
           <br /><br />
