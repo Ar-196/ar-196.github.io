@@ -3,8 +3,8 @@ function AboutMe() {
     <div id="about-me" className="w-3/4 justify-center items-center mx-auto flex-col">
       <div className="flex flex-col-reverse md:flex-row justify-center items-center py-8">
         <div className="md:w-1/4 md:h-full w-3/4 flex flex-col items-center pt-10 md:pt-0">
-          <img className="rounded-2 pb-5" src="images/Arnav-In-Thailand.jpg"></img>
-          <p className="text-sm text-stone-500 italic font-poppins">Arnav in Batu Caves, Malaysia</p>
+          <img className="rounded-2 pb-5" src="images/Arnav-Professional-Photo.jpg"></img>
+          <p className="text-sm text-stone-500 italic font-poppins">Arnav Badrish</p>
         </div>
         <div className="md:w-3/4 md:h-full border-2 mx-10 p-10 md:p-15 flex flex-col">
           <p className="text-3xl font-poppins"> 
@@ -38,16 +38,15 @@ function AboutMe() {
             href="https://discord.com/users/542208988163604490" 
             socialMediaName="discord" 
             customHoverBg="bg-blue-700"/>
-          <SocialButton 
-            href="https://www.reddit.com/user/Ar_196/" 
-            socialMediaName="reddit" 
-            customHoverBg="bg-red-800"/>
           <SocialButton href="https://www.instagram.com/ar._.196/" 
             socialMediaName="instagram" 
             customBg="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]" 
             customHoverBg='hover:bg-gradient-to-r hover:from-[#fd1d1d] hover:via-[#fd1d1d] hover:to-[#833ab4]'/>
+          <SocialButton href="https://github.com/Ar-196" 
+            socialMediaName="github"
+            customBg='bg-gray-600'
+            customHoverBg='bg-gray-700'/>
         </div>
-        <div className="invisible bg-linkedin bg-reddit bg-discord"></div>
         <div className="pt-10"></div>
       </div>
     </div>
