@@ -47,6 +47,7 @@ function AboutMe() {
             customBg='bg-gray-600'
             customHoverBg='bg-gray-700'/>
         </div>
+        <div className="invisible bg-linkedin bg-reddit bg-discord"></div>
         <div className="pt-10"></div>
       </div>
     </div>
